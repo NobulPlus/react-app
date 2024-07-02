@@ -93,8 +93,8 @@ const Product = () => {
               Comments
             </div>
           </div>
-          <div className="p-4 bg-white rounded shadow-md product-body">
-            {activeTab === 'details' && <div>Here are the product details...</div>}
+          <div className="p-12 bg-gray-200 rounded shadow-md product-body">
+            {activeTab === 'details' && <div className='w-[38%] font-bold'>Adire/Kampala Tye & Dye Bubu, women bubu, one size fits all, African Kaftan, Long African women bubu, Handmade with Aso Oke.</div>}
             {activeTab === 'specifications' && <div>Here are the specifications...</div>}
             {activeTab === 'comments' && <div>Here are the comments...</div>}
           </div>
